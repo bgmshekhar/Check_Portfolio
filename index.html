@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px 40px;
+      border-radius: 12px;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    .card h1 {
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+    .card p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .card span {
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Welcome!</h1>
+    <p>Redirecting you to my portfolio site...</p>
+    <span>https://chandrashekhar.infy.uk/</span>
+  </div>
+
+  <script>
+    const redirectUrl = "https://chandrashekhar.infy.uk/";
+    const delay = 3000; // 3 seconds
+
+    setTimeout(() => {
+      window.location.href = redirectUrl;
+    }, delay);
+  </script>
+</body>
+    </html>
